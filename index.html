@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="header">
+    <div class="header__profile">
+        <img src="{{site.github.url}}/assets/img/profilepic.png" width="100" height="100">
+        <h1>{{ site.name }}</h1>
+    </div>
+    <ul>
+        {% for item in site.data.navigation %}
+        <li>
+            <a href="{{ item.url | prepend: site.github.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="about">
+  <div class="about__content">
+    <p>Moin, I am Alla Lipina.</p>
+
+    <p>St.Petersburg native. I now live in Hamburg, Germany.</p>
+
+    <p>My professional interests lie in the field of web development, usability and programming. I enjoy designing and implementing new interfaces and apps.</p>
+
+    <p>If you are interested to work with please check out my profiles <a href="{{site.account_linkedin}}" target="_blank">LinkedIn</a> / <a href="{{site.account_xing}}" target="_blank">Xing</a> or write me an email: <a href="mailto:{{site.email}}?Subject=Hi%20Alla" target="_top"">{{site.email}}</a></p>
+  </div>
+</div>
+
+<!-- <div class="blog">
+    <h1>Blog Posts:</h1>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+ -->

@@ -1,0 +1,33 @@
+# Blog settings
+permalink: /blog/:title
+
+
+# My variables
+name: Alla Lipina
+description: Personal webpage for Alla Lipina
+email: alla.lipina@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lipina.github.io/alipina/" # the base hostname & protocol for your site
+google_verification: null
+account_xing: "https://www.xing.com/profile/Alla_Lipina"
+account_linkedin: "https://de.linkedin.com/in/alla-lipina-94638244"
+account_instagram: "https://www.instagram.com/ellie_fernweh/"
+
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md"]
+
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
