@@ -4,7 +4,7 @@ permalink: /blog/:title
 
 # My variables
 name: Alla Lipina
-description: Personal webpage for Alla Lipina
+description: Personal webpage of Alla Lipina.
 email: alla.lipina@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lipina.github.io/" # the base hostname & protocol for your site
