@@ -28,15 +28,17 @@ layout: default
 
     <p>Here is what I am doing <a href="{{ site.github.url }}/now">now</a></p>
   </div>
+
+  <div id="instafeed"></div>
 </div>
 
 <script type="text/javascript" src="assets/js/instafeed.min.js"></script>
 
 <script type="text/javascript">
     var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'hamburg',
-        clientId: '05a195ca08a44c049cc275636bf1be83'
+        get: 'user',
+        userId: '303603531',
+        accessToken: '303603531.1677ed0.d8e536471a6646bd84dd3c68e030a105'
     });
     feed.run();
 </script>
