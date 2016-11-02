@@ -30,6 +30,17 @@ layout: default
   </div>
 </div>
 
+<script type="text/javascript" src="assets/js/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'hamburg',
+        clientId: '05a195ca08a44c049cc275636bf1be83'
+    });
+    feed.run();
+</script>
+
 <!-- <div class="blog">
     <h1>Blog Posts:</h1>
     <ul>
