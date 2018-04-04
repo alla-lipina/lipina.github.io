@@ -4,7 +4,7 @@ title: My first post!
 ---
 # Hello World!
 
-Here are the countries I have been to!
+The absolutely awesome customisable map for the blog which I am going to really use someday.
 
 <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
