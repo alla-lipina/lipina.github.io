@@ -7,7 +7,7 @@ name: Alla Lipina
 description: Personal webpage of Alla Lipina.
 email: alla.lipina@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lipina.github.io/" # the base hostname & protocol for your site
+url: "https://alla-lipina.github.io/" # the base hostname & protocol for your site
 google_verification: null
 account_xing: "https://www.xing.com/profile/Alla_Lipina"
 account_linkedin: "https://de.linkedin.com/in/alla-lipina-94638244"
