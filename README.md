@@ -1,4 +1,4 @@
-my personal page - http://alla-lipina.github.io/lipina.github.io/
+my personal page - http://alla-lipina.github.io
 
 ## to run the app locally
 
